@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f4e2eed8;
+}
+
+main{
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    width: 50vw;
+    height: 70vh;
+    background: url(img/loginIcon.png) center center no-repeat;
+    background-size: contain;
+    box-shadow: 4px 6px 23px #eaa5d3;
+    border-radius: 20px;
+}
+
+.container{
+    position: relative;
+    background-color: #f4e2eed8;
+    width: 300px;
+    height: 60vh;
+    top: 50%;
+    left: 150%;
+    transform: translate(-150%,-50%);
+    border-radius: 20px;
+    box-shadow: 4px 6px 23px #eaa5d3;
+    padding: 20px;
+}
+img{
+    position: relative;
+    left: 15%;
+}
+
+.inputUser{
+    outline: none;
+    background-color: #f4e2eed8;
+    border: none;
+    border-bottom: 1px solid #de24a0;
+    letter-spacing: 2px;
+    font-size: 15px;
+    width: 90%;
+    padding-top: 10px;
+}
+
+form{
+    position: relative;
+    top: 10%;
+}
+
+.botao{
+    position: relative;
+    top: 3px;
+    left: 17%;
+    background-color: #BF4080;
+    width: 178px;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: 3px 2px 9px #480225;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.botao:hover{
+    background-color: #24BBAB;
+    box-shadow: 3px 2px 9px #0b3934;
+}
+
+.labelUser{
+    color: #480225;
+}
+
+.inputUser:valid{
+    border-bottom: 1px solid #24BBAB;
+}
